@@ -1,0 +1,89 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  .container {
+    text-align: center;
+    max-width: 700px; /* Increased max-width for larger layout */
+  }
+  
+  .logo {
+    width: 120px; /* Increased logo size */
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 3em; /* Increased font size */
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+  
+  p {
+    font-size: 1.2em; /* Increased paragraph font size */
+    margin-bottom: 20px;
+  }
+  
+  .coming-soon-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px; /* Increased padding for larger button */
+    font-size: 1.2em; /* Larger font size in button */
+    cursor: pointer;
+    margin-top: 25px;
+  }
+  
+  .coming-soon-btn .apple-icon {
+    font-size: 1.5em; /* Larger Apple icon */
+    margin-right: 8px;
+  }
+  
+  .mac-version {
+    font-size: 1em; /* Slightly larger version text */
+    color: #666;
+    margin-top: 15px;
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  
+  .icon-button {
+    background: none;
+    border: none;
+    font-size: 1.8em; /* Larger icon buttons */
+    margin: 0 15px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  footer {
+    font-size: 1em; /* Increased footer text size */
+    color: #666;
+    margin-top: 35px;
+  }
+
+  @media screen and (max-width: 480px) {
+    *{
+        font-size: 0.9em;
+    }
+  }
+  
